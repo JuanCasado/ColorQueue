@@ -10,8 +10,10 @@ This is a simple distributed game where two players play againt each other to wi
 * **To win** you need to fill your opponent's stack so click the colors as fast as you can, at least faster than you opponent.
 
 
+Project done by Juan Casado Ballesteros
+
 [Mr.BlissfulGrin](http://www.mrblissfulgrin.com "mrblissfulgrin")
 
-[cocos2d-x](http://www.cocos2d-x.org "cocos2d-x")
+[Cocos2d-x c++ game engine](http://www.cocos2d-x.org "Cocos2d-x c++ game engine")
 
 ![logo](./proj.ios_mac/ios/Images.xcassets/AppIcon-2.appiconset/icon_128x128@2x.png "Logo")
