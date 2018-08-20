@@ -5,6 +5,7 @@
 #include "TcpClientScreen.hpp"
 #include "Displayer.hpp"
 #include "cocos2d.h"
+#include "ui/CocosGUI.h"
 
 class MainMenu : public cocos2d::Scene{
 public:

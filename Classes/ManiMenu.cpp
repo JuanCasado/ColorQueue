@@ -106,6 +106,22 @@ bool MainMenu::init(){
     buttonHolder->alignItemsVerticallyWithPadding(10);
     buttonHolder->setPosition(background->getPosition());
     
+    auto button = ui::Button::create("il.png", "ih.png", "il.png");
+    button->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){
+        switch (type){
+            case ui::Widget::TouchEventType::BEGAN:
+                break;
+            case ui::Widget::TouchEventType::ENDED:{
+                Application::getInstance()->openURL("http://www.mrblissfulgrin.com");
+                break;
+            }
+            default:
+                break;
+        }
+    });
+    button->setPosition(Vec2(screen.width*0.95, screen.height*0.95));
+    this->addChild(button);
+    
     this->addChild(title);
     this->addChild(background);
     this->addChild(buttonHolder);
