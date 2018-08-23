@@ -9,6 +9,7 @@ This is a simple distributed game where two players play againt each other to wi
 * To make the game a bit faster and challenging there is a small chance that one new color is randomly generated in your stack, also if you click another color that is not the one at the bottom of the stack that will happen as well.
 * **To win** you need to fill your opponent's stack so click the colors as fast as you can, at least faster than you opponent.
 
+[![Color Queueu](http://img.youtube.com/vi/HZ5WpjInv48/0.jpg)](https://youtu.be/HZ5WpjInv48)
 
 Project done by Juan Casado Ballesteros
 
